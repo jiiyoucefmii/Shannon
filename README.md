@@ -90,6 +90,11 @@ Search ranks the right document first almost always (MRR 0.96 on 55 queries).
 - **Some test files**: the 8 TutorEval questions (restricted) and saved answer logs that quote course passages.
   Result summaries are included.
 
+## Licence
+
+The code is under the [MIT licence](LICENSE). It does not cover the course material, datasets or models the
+code downloads or uses: each keeps its own licence, listed in `seeds/`.
+
 ## Limits
 
 The model is small (4B parameters): generated answer keys and automatic marks can be wrong, so every generated
