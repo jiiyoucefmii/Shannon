@@ -1,0 +1,17 @@
+{
+ "rag": {
+  "questions": 40,
+  "key_point_coverage": 0.873,
+  "coverage_by_source": {
+   "tutoreval": 0.51,
+   "author": 0.964
+  },
+  "answers_with_citation": 37,
+  "mean_citations": 3.58,
+  "sentences_marked_unsourced": 68,
+  "citations_removed_or_moved": 53,
+  "mean_words": 149,
+  "hit_token_limit": 0,
+  "mean_seconds": 13.3
+ }
+}

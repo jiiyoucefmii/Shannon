@@ -1,0 +1,32 @@
+{
+ "rag": {
+  "questions": 40,
+  "key_point_coverage": 0.875,
+  "coverage_by_source": {
+   "tutoreval": 0.521,
+   "author": 0.964
+  },
+  "answers_with_citation": 39,
+  "mean_citations": 4.38,
+  "sentences_marked_unsourced": 36,
+  "citations_removed_or_moved": 49,
+  "mean_words": 142,
+  "hit_token_limit": 0,
+  "mean_seconds": 12.0
+ },
+ "norag": {
+  "questions": 40,
+  "key_point_coverage": 0.819,
+  "coverage_by_source": {
+   "tutoreval": 0.552,
+   "author": 0.885
+  },
+  "answers_with_citation": 8,
+  "mean_citations": 0.82,
+  "sentences_marked_unsourced": 11,
+  "citations_removed_or_moved": 0,
+  "mean_words": 150,
+  "hit_token_limit": 0,
+  "mean_seconds": 12.1
+ }
+}

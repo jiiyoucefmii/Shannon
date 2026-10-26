@@ -1,0 +1,145 @@
+# Course seeds — start pages scraped via Firecrawl on 2026-10-17; file links taken from those pages.
+# robots.txt: web.stanford.edu allows /class/ and /~jurafsky/ (checked 2026-10-17). GitHub Pages: no robots restrictions.
+# license_tier: what we may do with the files (see nlp-corpus-acquire skill). Unknown => restricted (quarantine).
+# Files on GitHub (CS336) are already cloned in corpus/raw/repos — not listed here.
+
+- id: cs224n-2026
+  institution: Stanford
+  course: CS224N NLP with Deep Learning
+  version: Winter 2026
+  start_url: https://web.stanford.edu/class/cs224n/
+  license: unknown
+  license_tier: restricted
+  license_note: No license statement on the course page. Ask the instructors to upgrade to RAG/fine-tune use.
+  video: https://www.youtube.com/playlist?list=PLoROMvodv4rOaMFbaqxPDoLWjDaRAdP9D
+  files:
+    slides:
+      - https://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture01-intro.pdf
+      - https://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture01-history.pdf
+      - https://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture02-wordvecs.pdf
+      - https://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture03-neuralnets.pdf
+      - https://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture04-rnnlm.pdf
+      - https://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture05-transformers.pdf
+      - https://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture06-final-project.pdf
+      - https://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture07-pretraining.pdf
+      - https://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture08-posttraining.pdf
+      - https://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture09-peft.pdf
+      - https://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture10-rag-agents.pdf
+      - https://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture11-evaluation.pdf
+      - https://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture12-reasoning-part1.pdf
+      - https://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture13-reasoning-part2.pdf
+      - https://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture14-guest-julie-tokenization-multilinguality.pdf
+      - https://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture16-impact-on-humanity.pdf
+      - https://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture19-open-questions.pdf
+      - https://web.stanford.edu/class/cs224n/slides_w25/2024%20CS224N%20Python%20Review%20Session%20Slides.pptx.pdf
+      - https://web.stanford.edu/class/cs224n/materials/hf_transformers_tutorial.pdf
+    notes:
+      - https://web.stanford.edu/class/cs224n/readings/cs224n_winter2023_lecture1_notes_draft.pdf
+      - https://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes02-wordvecs2.pdf
+      - https://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes03-neuralnets.pdf
+      - https://web.stanford.edu/class/cs224n/readings/gradient-notes.pdf
+      - https://web.stanford.edu/class/cs224n/readings/review-differential-calculus.pdf
+      - https://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes05-LM_RNN.pdf
+      - https://web.stanford.edu/class/cs224n/readings/cs224n-self-attention-transformers-2023_draft.pdf
+    assignment:
+      - https://web.stanford.edu/class/cs224n/assignments_w26/a1.zip
+      - https://web.stanford.edu/class/cs224n/assignments_w26/a2.pdf
+      - https://web.stanford.edu/class/cs224n/assignments_w26/a2.zip
+      - https://web.stanford.edu/class/cs224n/assignments_w26/a2_tex.zip
+      - https://web.stanford.edu/class/cs224n/assignments_w26/a3.pdf
+      - https://web.stanford.edu/class/cs224n/assignments_w26/a3.zip
+      - https://web.stanford.edu/class/cs224n/assignments_w26/a3_tex.zip
+      - https://web.stanford.edu/class/cs224n/assignments_w26/a4.pdf
+      - https://web.stanford.edu/class/cs224n/assignments_w26/a4.zip
+      - https://web.stanford.edu/class/cs224n/assignments_w26/a4_tex.zip
+      - https://web.stanford.edu/class/cs224n/project_w25/CS_224n__Default_Final_Project__Build_GPT_2.pdf
+      - https://web.stanford.edu/class/cs224n/project/DFP_Instructions.pdf
+      - https://web.stanford.edu/class/cs224n/project/custom-final-project-tips.pdf
+    syllabus:
+      - https://web.stanford.edu/class/cs224n/
+  not_collected:
+    - Canvas, Gradescope, Ed (login required)
+    - Colab notebooks (Google Drive links; open manually and export if needed)
+    - Archived years 2014-2025 (/class/archive/cs/cs224n/cs224n.12xx/) — add later if older notes are needed
+
+- id: slp3-2026aug
+  institution: Stanford / CU Boulder
+  course: Speech and Language Processing, 3rd ed. draft (Jurafsky & Martin)
+  version: Aug 19, 2026 release
+  start_url: https://web.stanford.edu/~jurafsky/slp3/
+  license: author-permission
+  license_tier: noncommercial
+  license_evidence_url: https://web.stanford.edu/~jurafsky/slp3/
+  license_note: Authors state the draft chapters and slides may be used freely in classes. Not a formal license — fine for private RAG and non-commercial fine-tuning; do not redistribute.
+  files:
+    textbook:
+      - https://web.stanford.edu/~jurafsky/slp3/ed3book_aug26.pdf
+    # Chapters (individual PDFs) — the full book above already contains them; fetch only if per-chapter files are wanted.
+    chapters_pattern: https://web.stanford.edu/~jurafsky/slp3/{1..11,13..26,A..K}.pdf
+    slides:
+      - https://web.stanford.edu/~jurafsky/slp3/slides/intro_26aug.pptx
+      - https://web.stanford.edu/~jurafsky/slp3/slides/tokens_jan26.pptx
+      - https://web.stanford.edu/~jurafsky/slp3/slides/med24.pptx
+      - https://web.stanford.edu/~jurafsky/slp3/slides/lm_jan25.pptx
+      - https://web.stanford.edu/~jurafsky/slp3/slides/logreg25aug.pptx
+      - https://web.stanford.edu/~jurafsky/slp3/slides/vector25aug.pptx
+      - https://web.stanford.edu/~jurafsky/slp3/slides/nn25aug.pptx
+      - https://web.stanford.edu/~jurafsky/slp3/slides/transformer_aug26.pptx
+      - https://web.stanford.edu/~jurafsky/slp3/slides/mlmjan25.pptx
+      - https://web.stanford.edu/~jurafsky/slp3/slides/ir_nov25.pptx
+      - https://web.stanford.edu/~jurafsky/slp3/slides/rnnjan25.pptx
+      - https://web.stanford.edu/~jurafsky/slp3/slides/8_POSNER_intro_May_6_2021.pptx
+      - https://web.stanford.edu/~jurafsky/slp3/slides/nb24aug.pptx
+    # pptx chosen over pdf: keeps speaker notes and slide structure. PDF twins exist at the same names with .pdf.
+
+- id: cmu-anlp-2026s
+  institution: CMU
+  course: 11-711 Advanced NLP
+  version: Spring 2026
+  start_url: https://cmu-l3.github.io/anlp-spring2026/
+  license: unknown
+  license_tier: restricted
+  code_repo: https://github.com/cmu-l3/anlp-spring2026-code   # cloned, quarantined (no LICENSE)
+  files:
+    slides_pattern: https://cmu-l3.github.io/anlp-spring2026/static_files/anlp-s2026-{NN}-{slug}.pdf
+    slides:
+      - https://cmu-l3.github.io/anlp-spring2026/static_files/anlp-s2026-01-intro.pdf
+      - https://cmu-l3.github.io/anlp-spring2026/static_files/anlp-s2026-02-representations.pdf
+      - https://cmu-l3.github.io/anlp-spring2026/static_files/anlp-s2026-03-lm.pdf
+      - https://cmu-l3.github.io/anlp-spring2026/static_files/anlp-s2026-04-rnns.pdf
+      - https://cmu-l3.github.io/anlp-spring2026/static_files/anlp-s2026-05-attention-transformers.pdf
+      - https://cmu-l3.github.io/anlp-spring2026/static_files/anlp-s2026-06-pretraining.pdf
+      - https://cmu-l3.github.io/anlp-spring2026/static_files/anlp-s2026-07-pretraining2-prompting.pdf
+      - https://cmu-l3.github.io/anlp-spring2026/static_files/anlp-s2026-08-finetuning.pdf
+      - https://cmu-l3.github.io/anlp-spring2026/static_files/anlp-s2026-09-decoding.pdf
+      - https://cmu-l3.github.io/anlp-spring2026/static_files/anlp-s2026-10-rag.pdf
+      - https://cmu-l3.github.io/anlp-spring2026/static_files/anlp-s2026-11-multimodal.pdf
+      - https://cmu-l3.github.io/anlp-spring2026/static_files/anlp-s2026-12-multimodal-ii.pdf
+      - https://cmu-l3.github.io/anlp-spring2026/static_files/anlp-s2026-13-evaluation.pdf
+      - https://cmu-l3.github.io/anlp-spring2026/static_files/anlp-s2026-14-experimentation.pdf
+      - https://cmu-l3.github.io/anlp-spring2026/static_files/anlp-s2026-15-multimodal-iii.pdf
+      - https://cmu-l3.github.io/anlp-spring2026/static_files/anlp-s2026-16-rl.pdf
+      - https://cmu-l3.github.io/anlp-spring2026/static_files/anlp-s2026-17-rl-llms.pdf
+      - https://cmu-l3.github.io/anlp-spring2026/static_files/anlp-s2026-18-zora.pdf
+      - https://cmu-l3.github.io/anlp-spring2026/static_files/anlp-s2026-19-quantization.pdf
+      - https://cmu-l3.github.io/anlp-spring2026/static_files/anlp-s2026-20-scaling-parallelism.pdf
+      - https://cmu-l3.github.io/anlp-spring2026/static_files/anlp-s2026-21-moe.pdf
+      - https://cmu-l3.github.io/anlp-spring2026/static_files/anlp-s2026-22-longcontext.pdf
+      - https://cmu-l3.github.io/anlp-spring2026/static_files/anlp-s2026-23-inference-scaling.pdf
+    assignment:
+      - https://cmu-l3.github.io/anlp-spring2026/assignments/assignment1
+      - https://cmu-l3.github.io/anlp-spring2026/assignments/assignment2
+      - https://cmu-l3.github.io/anlp-spring2026/assignments/assignment3&4
+    syllabus:
+      - https://cmu-l3.github.io/anlp-spring2026/
+  not_collected:
+    - Piazza (login), quiz and exam contents (page has #quizzes/#exam sections; check whether past exams are posted)
+
+- id: cs336-2025s
+  institution: Stanford
+  course: CS336 Language Modeling from Scratch
+  version: Spring 2025
+  start_url: https://stanford-cs336.github.io/spring2025/
+  license: MIT (GitHub repos)
+  license_tier: open
+  note: All slides and assignment PDFs live in GitHub repos; already cloned into corpus/raw/repos.

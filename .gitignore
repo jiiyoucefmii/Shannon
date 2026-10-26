@@ -1,0 +1,21 @@
+# environment and caches
+.venv/
+__pycache__/
+*.pyc
+
+# course library: copyrighted textbooks, slides and papers (download with scripts/download_all.py)
+corpus/
+# trained adapters (117 MB; trained partly on non-commercial data)
+models/
+logs/
+# Shannon's database: questions, student submissions, ratings
+data/
+*.pdf
+
+# test files that contain restricted TutorEval questions or quoted course passages
+eval/tutor_eval.jsonl
+eval/citation_labels.jsonl
+eval/citation_pairs.jsonl
+eval/tutor_runs/
+eval/tutor_eval_runs/**/*.jsonl
+eval/adapter_eval/*.jsonl

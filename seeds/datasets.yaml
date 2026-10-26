@@ -1,0 +1,276 @@
+# Dataset seeds — verified via Hugging Face Hub connector on 2026-10-17.
+# license = the license tag on the dataset card (evidence = the card URL).
+# finetune_splits: splits allowed into fine-tuning data. Every other split is eval-only.
+# Benchmarks used for evaluation have finetune_splits: [] so nothing leaks into training.
+# priority: P1 essential prototype, P2 evaluation, P3 fine-tuning, P4 optional.
+
+datasets:
+  - id: ds-squad-v2
+    hf_id: rajpurkar/squad_v2
+    title: SQuAD 2.0
+    license: cc-by-sa-4.0
+    license_tier: open
+    role: RAG reader eval, unanswerable-question handling (abstention)
+    topics: [rag, evaluation-metrics]
+    finetune_splits: []
+    priority: P4
+    notes: Wikipedia, not NLP-course content; use only to test abstention.
+
+  - id: ds-squad-v1
+    hf_id: rajpurkar/squad
+    title: SQuAD 1.1
+    license: cc-by-sa-4.0
+    license_tier: open
+    role: Extractive QA reference; course exercise material (students implement QA)
+    topics: [rag, evaluation-metrics]
+    finetune_splits: []
+    priority: P4
+
+  - id: ds-natural-questions
+    hf_id: google-research-datasets/natural_questions
+    title: Natural Questions
+    license: cc-by-sa-3.0
+    license_tier: open
+    role: Open-domain QA reference only
+    topics: [rag]
+    finetune_splits: []
+    priority: P4
+    notes: Very large download; check repo size before pulling. Low relevance to course content.
+
+  - id: ds-sciq
+    hf_id: allenai/sciq
+    title: SciQ
+    license: cc-by-nc-3.0
+    license_tier: noncommercial
+    role: MCQ + distractor-generation examples (format reference)
+    topics: [evaluation-metrics]
+    finetune_splits: [train]
+    priority: P3
+
+  - id: ds-mmlu
+    hf_id: cais/mmlu
+    title: MMLU
+    license: mit
+    license_tier: open
+    role: Eval — machine_learning, college_computer_science, college_mathematics subsets
+    topics: [evaluation-metrics, advanced]
+    finetune_splits: []
+    priority: P2
+    is_benchmark: true
+
+  - id: ds-mmlu-pro
+    hf_id: TIGER-Lab/MMLU-Pro
+    title: MMLU-Pro
+    license: mit
+    license_tier: open
+    role: Eval — computer science / math categories, harder 10-option MCQ
+    topics: [evaluation-metrics, advanced]
+    finetune_splits: []
+    priority: P2
+    is_benchmark: true
+
+  - id: ds-gsm8k
+    hf_id: openai/gsm8k
+    title: GSM8K
+    license: mit
+    license_tier: open
+    role: Step-by-step reasoning format; eval of arithmetic reasoning
+    topics: [evaluation-metrics]
+    finetune_splits: [train]
+    priority: P3
+    is_benchmark: true
+
+  - id: ds-math
+    hf_id: EleutherAI/hendrycks_math
+    title: MATH (Hendrycks)
+    license: mit
+    license_tier: open
+    role: Derivation-style math with worked LaTeX solutions
+    topics: [evaluation-metrics]
+    finetune_splits: [train]
+    priority: P3
+    is_benchmark: true
+
+  - id: ds-theoremqa
+    hf_id: TIGER-Lab/TheoremQA
+    title: TheoremQA
+    license: mit
+    license_tier: open
+    role: Eval — university-level theorem application (EE&CS, math)
+    topics: [evaluation-metrics]
+    finetune_splits: []
+    priority: P2
+    is_benchmark: true
+
+  - id: ds-humaneval
+    hf_id: openai/openai_humaneval
+    title: HumanEval
+    license: mit
+    license_tier: open
+    role: Eval — Python code generation with unit tests (164 problems)
+    topics: [evaluation-metrics]
+    finetune_splits: []
+    priority: P2
+    is_benchmark: true
+
+  - id: ds-humanevalpack
+    hf_id: bigcode/humanevalpack
+    title: HumanEvalPack (OctoPack)
+    license: mit
+    license_tier: open
+    role: Eval — HumanEvalFix (debugging) and HumanEvalExplain (code explanation)
+    topics: [evaluation-metrics]
+    finetune_splits: []
+    priority: P2
+    is_benchmark: true
+
+  - id: ds-mbpp
+    hf_id: google-research-datasets/mbpp
+    title: MBPP
+    license: cc-by-4.0
+    license_tier: open
+    role: Python problems with 3 tests each; train split usable for exercise-generation format
+    topics: [evaluation-metrics]
+    finetune_splits: [train, prompt]
+    priority: P2
+    is_benchmark: true
+
+  - id: ds-apps
+    hf_id: codeparrot/apps
+    title: APPS
+    license: mit
+    license_tier: open
+    role: Graded-difficulty programming problems with tests; difficulty-labelled exercise reference
+    topics: [evaluation-metrics]
+    finetune_splits: [train]
+    priority: P3
+    is_benchmark: true
+    notes: Repo uses a loading script; download raw files rather than load_dataset if scripts are disabled.
+
+  - id: ds-code-contests
+    hf_id: deepmind/code_contests
+    title: CodeContests
+    license: cc-by-4.0
+    license_tier: open
+    role: Hidden-test-case design reference for the grader
+    topics: [evaluation-metrics]
+    finetune_splits: [train]
+    priority: P4
+
+  - id: ds-codesearchnet
+    hf_id: code-search-net/code_search_net
+    title: CodeSearchNet
+    license: other
+    license_tier: restricted
+    role: Code-aware retrieval eval (Python subset only)
+    topics: [rag]
+    finetune_splits: []
+    priority: P4
+    notes: Card license is "other" (per-repo licenses of source code). Quarantine until reviewed.
+
+  - id: ds-qasper
+    hf_id: allenai/qasper
+    title: QASPER
+    license: cc-by-4.0
+    license_tier: open
+    role: QA over NLP research papers — closest public match to "explain this paper" tutoring
+    topics: [rag, advanced]
+    finetune_splits: [train]
+    priority: P1
+
+  - id: ds-scifact
+    hf_id: allenai/scifact
+    title: SciFact
+    license: cc-by-nc-2.0
+    license_tier: noncommercial
+    role: Groundedness / claim-verification eval for RAG answers
+    topics: [hallucination-robustness]
+    finetune_splits: []
+    priority: P2
+
+  - id: ds-arc
+    hf_id: allenai/ai2_arc
+    title: AI2 ARC
+    license: cc-by-sa-4.0
+    license_tier: open
+    role: MCQ format reference
+    topics: [evaluation-metrics]
+    finetune_splits: []
+    priority: P4
+
+  - id: ds-race
+    hf_id: ehovy/race
+    title: RACE
+    license: other
+    license_tier: restricted
+    role: Exam-style MCQ with distractors (distractor-generation reference)
+    topics: [evaluation-metrics]
+    finetune_splits: []
+    priority: P4
+    notes: Card license "other" (non-commercial research terms per original site) — not verified; quarantine.
+
+  - id: ds-mathdial
+    hf_id: eth-nlped/mathdial
+    title: MathDial
+    license: cc-by-4.0
+    license_tier: open
+    role: Tutoring dialogues with pedagogical moves — tutoring-style fine-tuning
+    topics: [advanced]
+    finetune_splits: [train]
+    priority: P3
+
+  - id: ds-tutoreval
+    hf_id: princeton-nlp/TutorEval
+    title: TutorEval
+    license: unknown
+    license_tier: restricted
+    role: Eval — tutoring questions over textbook chapters
+    topics: [evaluation-metrics]
+    finetune_splits: []
+    priority: P2
+    notes: No license tag on the card — not verified; eval-only from quarantine.
+
+  - id: ds-saf-en
+    hf_id: Short-Answer-Feedback/saf_communication_networks_english
+    title: SAF — Communication Networks (English)
+    license: cc-by-4.0
+    license_tier: open
+    role: College-level short answers with scores + expert feedback — grading and feedback model
+    topics: [evaluation-metrics]
+    finetune_splits: [train]
+    priority: P1
+
+  - id: ds-saf-de
+    hf_id: Short-Answer-Feedback/saf_micro_job_german
+    title: SAF — Micro-job (German)
+    license: cc-by-4.0
+    license_tier: open
+    role: Additional feedback examples (German)
+    topics: [evaluation-metrics]
+    finetune_splits: [train]
+    priority: P4
+
+  - id: ds-scientsbank
+    hf_id: nkazi/SciEntsBank
+    title: SciEntsBank (SemEval-2013 SRA)
+    license: cc-by-4.0
+    license_tier: open
+    role: Short-answer grading with 2/3/5-way labels and unseen-question test sets — grader agreement eval
+    topics: [evaluation-metrics]
+    finetune_splits: [train]
+    priority: P1
+
+# Manual / gated downloads (cannot be scripted; register after downloading):
+manual:
+  - id: ds-asap-sas
+    title: ASAP Short Answer Scoring (Kaggle)
+    where: Kaggle competition "asap-sas" (requires Kaggle account + rules acceptance)
+    priority: P2
+  - id: ds-assistments
+    title: ASSISTments 2009/2012 skill-builder data
+    where: ASSISTments data site (registration / terms)
+    priority: P4
+  - id: ds-ednet
+    title: EdNet (KT1)
+    where: riiid/ednet GitHub (download link to external storage)
+    priority: P4

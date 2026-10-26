@@ -1,0 +1,1467 @@
+{
+ "regular expressions": {
+  "area": "foundations",
+  "chunks_trainable": 81,
+  "chunks_restricted": 17,
+  "docs_trainable": 16,
+  "docs_restricted": 6,
+  "example_docs": [
+   "arxiv-2005.11401",
+   "arxiv-2108.07732",
+   "arxiv-2302.13971",
+   "arxiv-2305.12524",
+   "arxiv-2308.07124",
+   "arxiv-2406.01574"
+  ],
+  "status": "ok"
+ },
+ "tokenization basics": {
+  "area": "foundations",
+  "chunks_trainable": 212,
+  "chunks_restricted": 74,
+  "docs_trainable": 54,
+  "docs_restricted": 16,
+  "example_docs": [
+   "agents-course-units-en-unit1-messages-and-special-tokens",
+   "agents-course-units-en-unit1-what-are-llms",
+   "annotated-transformer-annotatedtransformer",
+   "arxiv-1406.1078",
+   "arxiv-1409.0473",
+   "arxiv-1508.07909"
+  ],
+  "status": "ok"
+ },
+ "BPE": {
+  "area": "foundations",
+  "chunks_trainable": 147,
+  "chunks_restricted": 49,
+  "docs_trainable": 31,
+  "docs_restricted": 17,
+  "example_docs": [
+   "annotated-transformer-annotatedtransformer",
+   "arxiv-1508.07909",
+   "arxiv-1702.01806",
+   "arxiv-1706.03762",
+   "arxiv-1910.07467",
+   "arxiv-2001.08361"
+  ],
+  "status": "ok"
+ },
+ "WordPiece / SentencePiece / unigram LM tokenizer": {
+  "area": "foundations",
+  "chunks_trainable": 75,
+  "chunks_restricted": 20,
+  "docs_trainable": 22,
+  "docs_restricted": 9,
+  "example_docs": [
+   "arxiv-1706.03762",
+   "arxiv-1810.04805",
+   "arxiv-2108.07732",
+   "arxiv-2109.01652",
+   "arxiv-2203.15556",
+   "arxiv-2302.13971"
+  ],
+  "status": "ok"
+ },
+ "text normalization / stemming / lemmatization": {
+  "area": "foundations",
+  "chunks_trainable": 23,
+  "chunks_restricted": 14,
+  "docs_trainable": 7,
+  "docs_restricted": 4,
+  "example_docs": [
+   "arxiv-1409.0473",
+   "arxiv-2211.09110",
+   "arxiv-2212.10511",
+   "arxiv-2501.12948",
+   "cs224n-2026-slides-cs224n-2026-lecture11-evaluation",
+   "eisenstein-nlp-notes"
+  ],
+  "status": "ok"
+ },
+ "minimum edit distance": {
+  "area": "foundations",
+  "chunks_trainable": 42,
+  "chunks_restricted": 13,
+  "docs_trainable": 3,
+  "docs_restricted": 4,
+  "example_docs": [
+   "arxiv-1606.05250",
+   "arxiv-1707.06209",
+   "arxiv-2211.09110",
+   "cs224n-2026-slides-cs224n-2026-lecture11-evaluation",
+   "eisenstein-nlp-notes",
+   "slp3-2026aug-slides-med24"
+  ],
+  "status": "ok"
+ },
+ "n-gram LM": {
+  "area": "language modelling",
+  "chunks_trainable": 159,
+  "chunks_restricted": 160,
+  "docs_trainable": 23,
+  "docs_restricted": 30,
+  "example_docs": [
+   "arxiv-1301.3781",
+   "arxiv-1406.1078",
+   "arxiv-1508.07909",
+   "arxiv-1606.05250",
+   "arxiv-1805.04833",
+   "arxiv-1810.04805"
+  ],
+  "status": "ok"
+ },
+ "smoothing (Laplace/add-k)": {
+  "area": "language modelling",
+  "chunks_trainable": 25,
+  "chunks_restricted": 4,
+  "docs_trainable": 3,
+  "docs_restricted": 1,
+  "example_docs": [
+   "d2l-language-model",
+   "eisenstein-nlp-notes",
+   "slp3-2026aug-slides-lm_jan25",
+   "slp3-2026aug-textbook-ed3book_aug26"
+  ],
+  "status": "ok"
+ },
+ "interpolation / backoff": {
+  "area": "language modelling",
+  "chunks_trainable": 35,
+  "chunks_restricted": 56,
+  "docs_trainable": 5,
+  "docs_restricted": 6,
+  "example_docs": [
+   "arxiv-1508.07909",
+   "arxiv-2302.13971",
+   "arxiv-cmp-lg/9606011",
+   "arxiv-cs/0108005",
+   "cs224n-2026-notes-cs224n-2019-notes05-lm_rnn",
+   "cs224n-2026-slides-cs224n-2026-lecture04-rnnlm"
+  ],
+  "status": "ok"
+ },
+ "Kneser-Ney": {
+  "area": "language modelling",
+  "chunks_trainable": 12,
+  "chunks_restricted": 73,
+  "docs_trainable": 5,
+  "docs_restricted": 3,
+  "example_docs": [
+   "arxiv-2302.13971",
+   "arxiv-cs/0108005",
+   "eisenstein-nlp-notes",
+   "paper-a-neural-probabilistic-language-model-bengio-2003",
+   "slp3-2026aug-textbook-ed3book_aug26",
+   "spring2025-lectures-lecture-14"
+  ],
+  "status": "ok"
+ },
+ "perplexity": {
+  "area": "language modelling",
+  "chunks_trainable": 129,
+  "chunks_restricted": 113,
+  "docs_trainable": 26,
+  "docs_restricted": 22,
+  "example_docs": [
+   "annotated-transformer-annotatedtransformer",
+   "arxiv-1301.3781",
+   "arxiv-1406.1078",
+   "arxiv-1409.3215",
+   "arxiv-1706.03762",
+   "arxiv-1805.04833"
+  ],
+  "status": "ok"
+ },
+ "neural LM (feed-forward)": {
+  "area": "language modelling",
+  "chunks_trainable": 52,
+  "chunks_restricted": 170,
+  "docs_trainable": 20,
+  "docs_restricted": 33,
+  "example_docs": [
+   "arxiv-1301.3781",
+   "arxiv-1406.1078",
+   "arxiv-1409.0473",
+   "arxiv-1409.3215",
+   "arxiv-1607.06450",
+   "arxiv-1902.00751"
+  ],
+  "status": "ok"
+ },
+ "naive Bayes": {
+  "area": "classification",
+  "chunks_trainable": 24,
+  "chunks_restricted": 2,
+  "docs_trainable": 8,
+  "docs_restricted": 2,
+  "example_docs": [
+   "arxiv-2105.03011",
+   "cs224n-2026-slides-cs224n-2026-lecture01-history",
+   "eisenstein-nlp-notes",
+   "hfcourse-ch1-1",
+   "slp3-2026aug-slides-lm_jan25",
+   "slp3-2026aug-slides-logreg25aug"
+  ],
+  "status": "ok"
+ },
+ "logistic regression": {
+  "area": "classification",
+  "chunks_trainable": 118,
+  "chunks_restricted": 62,
+  "docs_trainable": 7,
+  "docs_restricted": 10,
+  "example_docs": [
+   "arxiv-1506.05908",
+   "arxiv-1606.05250",
+   "arxiv-1707.06209",
+   "arxiv-2005.14165",
+   "arxiv-cs/0108005",
+   "cs224n-2026-notes-cs224n-2019-notes02-wordvecs2"
+  ],
+  "status": "ok"
+ },
+ "softmax / cross-entropy": {
+  "area": "classification",
+  "chunks_trainable": 136,
+  "chunks_restricted": 56,
+  "docs_trainable": 30,
+  "docs_restricted": 27,
+  "example_docs": [
+   "arxiv-1904.09751",
+   "arxiv-2001.08361",
+   "arxiv-2005.14165",
+   "arxiv-2105.03011",
+   "arxiv-2107.03374",
+   "arxiv-2110.14168"
+  ],
+  "status": "ok"
+ },
+ "regularization": {
+  "area": "classification",
+  "chunks_trainable": 78,
+  "chunks_restricted": 124,
+  "docs_trainable": 32,
+  "docs_restricted": 37,
+  "example_docs": [
+   "annotated-transformer-annotatedtransformer",
+   "arxiv-1211.5063",
+   "arxiv-1409.0473",
+   "arxiv-1606.05250",
+   "arxiv-1607.06450",
+   "arxiv-1706.03762"
+  ],
+  "status": "ok"
+ },
+ "precision/recall/F1": {
+  "area": "classification",
+  "chunks_trainable": 136,
+  "chunks_restricted": 80,
+  "docs_trainable": 21,
+  "docs_restricted": 20,
+  "example_docs": [
+   "arxiv-1211.5063",
+   "arxiv-1508.07909",
+   "arxiv-1606.05250",
+   "arxiv-1706.03762",
+   "arxiv-1707.06209",
+   "arxiv-1806.03822"
+  ],
+  "status": "ok"
+ },
+ "sentiment analysis": {
+  "area": "classification",
+  "chunks_trainable": 227,
+  "chunks_restricted": 138,
+  "docs_trainable": 37,
+  "docs_restricted": 30,
+  "example_docs": [
+   "arxiv-1301.3781",
+   "arxiv-1409.3215",
+   "arxiv-1607.06450",
+   "arxiv-1810.04805",
+   "arxiv-2005.14165",
+   "arxiv-2104.09864"
+  ],
+  "status": "ok"
+ },
+ "statistical significance / bootstrap": {
+  "area": "classification",
+  "chunks_trainable": 64,
+  "chunks_restricted": 30,
+  "docs_trainable": 10,
+  "docs_restricted": 11,
+  "example_docs": [
+   "arxiv-1606.05250",
+   "arxiv-1707.06209",
+   "arxiv-2201.11903",
+   "arxiv-2203.02155",
+   "arxiv-2203.15556",
+   "arxiv-2210.03629"
+  ],
+  "status": "ok"
+ },
+ "TF-IDF": {
+  "area": "representations",
+  "chunks_trainable": 49,
+  "chunks_restricted": 14,
+  "docs_trainable": 6,
+  "docs_restricted": 7,
+  "example_docs": [
+   "arxiv-1606.05250",
+   "arxiv-1805.04833",
+   "arxiv-1806.03822",
+   "arxiv-2005.11401",
+   "arxiv-2105.03011",
+   "arxiv-2105.09938"
+  ],
+  "status": "ok"
+ },
+ "PMI / PPMI": {
+  "area": "representations",
+  "chunks_trainable": 14,
+  "chunks_restricted": 17,
+  "docs_trainable": 3,
+  "docs_restricted": 2,
+  "example_docs": [
+   "eisenstein-nlp-notes",
+   "paper-glove",
+   "slp3-2026aug-slides-ir_nov25",
+   "slp3-2026aug-textbook-ed3book_aug26",
+   "wikipedia-pointwise-mutual-information"
+  ],
+  "status": "ok"
+ },
+ "word2vec / skip-gram": {
+  "area": "representations",
+  "chunks_trainable": 97,
+  "chunks_restricted": 144,
+  "docs_trainable": 16,
+  "docs_restricted": 16,
+  "example_docs": [
+   "arxiv-1301.3781",
+   "arxiv-1607.06450",
+   "arxiv-1902.00751",
+   "cs224n-2026-assignment-a1",
+   "cs224n-2026-assignment-a2",
+   "cs224n-2026-assignment-a2_tex"
+  ],
+  "status": "ok"
+ },
+ "GloVe": {
+  "area": "representations",
+  "chunks_trainable": 35,
+  "chunks_restricted": 80,
+  "docs_trainable": 11,
+  "docs_restricted": 12,
+  "example_docs": [
+   "arxiv-1707.06209",
+   "arxiv-1810.04805",
+   "arxiv-1902.00751",
+   "arxiv-2005.14165",
+   "arxiv-2211.09110",
+   "cs224n-2026-assignment-a1"
+  ],
+  "status": "ok"
+ },
+ "fastText / subword embeddings": {
+  "area": "representations",
+  "chunks_trainable": 27,
+  "chunks_restricted": 6,
+  "docs_trainable": 8,
+  "docs_restricted": 3,
+  "example_docs": [
+   "arxiv-1805.04833",
+   "arxiv-2302.04761",
+   "arxiv-2302.13971",
+   "assignment4-data-cs336-assignment4-data",
+   "cs224n-2026-assignment-a1",
+   "d2l-similarity-analogy"
+  ],
+  "status": "ok"
+ },
+ "embedding bias": {
+  "area": "representations",
+  "chunks_trainable": 14,
+  "chunks_restricted": 7,
+  "docs_trainable": 5,
+  "docs_restricted": 6,
+  "example_docs": [
+   "arxiv-1409.0473",
+   "arxiv-2005.11401",
+   "arxiv-2005.14165",
+   "arxiv-2110.14168",
+   "arxiv-2208.07339",
+   "cs224n-2026-assignment-a1"
+  ],
+  "status": "ok"
+ },
+ "contextual embeddings (ELMo)": {
+  "area": "representations",
+  "chunks_trainable": 60,
+  "chunks_restricted": 21,
+  "docs_trainable": 10,
+  "docs_restricted": 9,
+  "example_docs": [
+   "arxiv-1806.03822",
+   "arxiv-1810.04805",
+   "arxiv-1902.00751",
+   "arxiv-2005.14165",
+   "arxiv-2108.07732",
+   "arxiv-2211.09110"
+  ],
+  "status": "ok"
+ },
+ "backpropagation": {
+  "area": "neural basics",
+  "chunks_trainable": 56,
+  "chunks_restricted": 91,
+  "docs_trainable": 15,
+  "docs_restricted": 23,
+  "example_docs": [
+   "arxiv-1211.5063",
+   "arxiv-1301.3781",
+   "arxiv-1409.0473",
+   "arxiv-1409.3215",
+   "arxiv-1506.05908",
+   "arxiv-1508.07909"
+  ],
+  "status": "ok"
+ },
+ "computation graph / autograd": {
+  "area": "neural basics",
+  "chunks_trainable": 55,
+  "chunks_restricted": 37,
+  "docs_trainable": 12,
+  "docs_restricted": 12,
+  "example_docs": [
+   "arxiv-1910.07467",
+   "arxiv-2302.13971",
+   "arxiv-2406.16838",
+   "assignment2-systems-cs336-assignment2-systems",
+   "cmu-anlp-2026s-slides-anlp-s2026-02-representations",
+   "cmu-anlp-2026s-slides-anlp-s2026-04-rnns"
+  ],
+  "status": "ok"
+ },
+ "activation functions": {
+  "area": "neural basics",
+  "chunks_trainable": 109,
+  "chunks_restricted": 150,
+  "docs_trainable": 32,
+  "docs_restricted": 30,
+  "example_docs": [
+   "annotated-transformer-annotatedtransformer",
+   "arxiv-1211.5063",
+   "arxiv-1406.1078",
+   "arxiv-1409.0473",
+   "arxiv-1506.05908",
+   "arxiv-1607.06450"
+  ],
+  "status": "ok"
+ },
+ "dropout": {
+  "area": "neural basics",
+  "chunks_trainable": 70,
+  "chunks_restricted": 69,
+  "docs_trainable": 30,
+  "docs_restricted": 21,
+  "example_docs": [
+   "annotated-transformer-annotatedtransformer",
+   "arxiv-1506.05908",
+   "arxiv-1508.07909",
+   "arxiv-1706.03762",
+   "arxiv-1707.06209",
+   "arxiv-1805.04833"
+  ],
+  "status": "ok"
+ },
+ "optimizers (SGD/Adam)": {
+  "area": "neural basics",
+  "chunks_trainable": 127,
+  "chunks_restricted": 143,
+  "docs_trainable": 48,
+  "docs_restricted": 46,
+  "example_docs": [
+   "annotated-transformer-annotatedtransformer",
+   "arxiv-1211.5063",
+   "arxiv-1301.3781",
+   "arxiv-1406.1078",
+   "arxiv-1409.0473",
+   "arxiv-1409.3215"
+  ],
+  "status": "ok"
+ },
+ "weight initialization": {
+  "area": "neural basics",
+  "chunks_trainable": 45,
+  "chunks_restricted": 66,
+  "docs_trainable": 26,
+  "docs_restricted": 30,
+  "example_docs": [
+   "annotated-transformer-annotatedtransformer",
+   "arxiv-1211.5063",
+   "arxiv-1406.1078",
+   "arxiv-1409.3215",
+   "arxiv-1607.06450",
+   "arxiv-1902.00751"
+  ],
+  "status": "ok"
+ },
+ "batch / layer normalization": {
+  "area": "neural basics",
+  "chunks_trainable": 70,
+  "chunks_restricted": 194,
+  "docs_trainable": 19,
+  "docs_restricted": 19,
+  "example_docs": [
+   "annotated-transformer-annotatedtransformer",
+   "arxiv-1607.06450",
+   "arxiv-1706.03762",
+   "arxiv-1805.04833",
+   "arxiv-1902.00751",
+   "arxiv-1910.07467"
+  ],
+  "status": "ok"
+ },
+ "RNN": {
+  "area": "sequence models",
+  "chunks_trainable": 191,
+  "chunks_restricted": 324,
+  "docs_trainable": 37,
+  "docs_restricted": 35,
+  "example_docs": [
+   "annotated-transformer-annotatedtransformer",
+   "arxiv-1211.5063",
+   "arxiv-1301.3781",
+   "arxiv-1406.1078",
+   "arxiv-1409.0473",
+   "arxiv-1409.3215"
+  ],
+  "status": "ok"
+ },
+ "LSTM": {
+  "area": "sequence models",
+  "chunks_trainable": 80,
+  "chunks_restricted": 121,
+  "docs_trainable": 20,
+  "docs_restricted": 24,
+  "example_docs": [
+   "arxiv-1211.5063",
+   "arxiv-1406.1078",
+   "arxiv-1409.0473",
+   "arxiv-1409.3215",
+   "arxiv-1506.05908",
+   "arxiv-1606.05250"
+  ],
+  "status": "ok"
+ },
+ "GRU": {
+  "area": "sequence models",
+  "chunks_trainable": 18,
+  "chunks_restricted": 29,
+  "docs_trainable": 7,
+  "docs_restricted": 8,
+  "example_docs": [
+   "arxiv-1508.07909",
+   "arxiv-1607.06450",
+   "arxiv-1702.01806",
+   "arxiv-1706.03762",
+   "arxiv-1707.06209",
+   "arxiv-1910.07467"
+  ],
+  "status": "ok"
+ },
+ "vanishing/exploding gradients": {
+  "area": "sequence models",
+  "chunks_trainable": 21,
+  "chunks_restricted": 50,
+  "docs_trainable": 8,
+  "docs_restricted": 10,
+  "example_docs": [
+   "arxiv-1211.5063",
+   "arxiv-1409.3215",
+   "arxiv-1607.06450",
+   "assignment1-basics-cs336-assignment1-basics",
+   "cmu-anlp-2026s-slides-anlp-s2026-04-rnns",
+   "cmu-anlp-2026s-slides-anlp-s2026-05-attention-transformers"
+  ],
+  "status": "ok"
+ },
+ "bidirectional RNN": {
+  "area": "sequence models",
+  "chunks_trainable": 30,
+  "chunks_restricted": 34,
+  "docs_trainable": 7,
+  "docs_restricted": 6,
+  "example_docs": [
+   "arxiv-1409.0473",
+   "arxiv-1810.04805",
+   "cs224n-2026-notes-cs224n-2019-notes05-lm_rnn",
+   "cs224n-2026-slides-cs224n-2026-lecture05-transformers",
+   "cs224n-2026-slides-cs224n-2026-lecture06-final-project",
+   "d2l-bert"
+  ],
+  "status": "ok"
+ },
+ "CNN for text": {
+  "area": "sequence models",
+  "chunks_trainable": 9,
+  "chunks_restricted": 4,
+  "docs_trainable": 2,
+  "docs_restricted": 1,
+  "example_docs": [
+   "d2l-sentiment-analysis-cnn",
+   "eisenstein-nlp-notes",
+   "slp3-2026aug-textbook-ed3book_aug26"
+  ],
+  "status": "thin"
+ },
+ "POS tagging": {
+  "area": "sequence labelling & structure",
+  "chunks_trainable": 115,
+  "chunks_restricted": 75,
+  "docs_trainable": 17,
+  "docs_restricted": 9,
+  "example_docs": [
+   "arxiv-1606.05250",
+   "arxiv-1707.06209",
+   "arxiv-1902.00751",
+   "arxiv-2105.09938",
+   "arxiv-2211.09110",
+   "arxiv-cmp-lg/9606011"
+  ],
+  "status": "ok"
+ },
+ "HMM / Viterbi": {
+  "area": "sequence labelling & structure",
+  "chunks_trainable": 50,
+  "chunks_restricted": 90,
+  "docs_trainable": 7,
+  "docs_restricted": 5,
+  "example_docs": [
+   "arxiv-1506.05908",
+   "arxiv-2406.16838",
+   "arxiv-cs/0108005",
+   "cs224n-2026-notes-cs224n-self-attention-transformers-2023_draft",
+   "cs224n-2026-slides-cs224n-2026-lecture01-history",
+   "d2l-bahdanau-attention"
+  ],
+  "status": "ok"
+ },
+ "CRF": {
+  "area": "sequence labelling & structure",
+  "chunks_trainable": 42,
+  "chunks_restricted": 42,
+  "docs_trainable": 2,
+  "docs_restricted": 6,
+  "example_docs": [
+   "arxiv-1810.04805",
+   "arxiv-1904.09751",
+   "arxiv-2108.07732",
+   "cs224n-2026-notes-cs224n-self-attention-transformers-2023_draft",
+   "eisenstein-nlp-notes",
+   "paper-glove"
+  ],
+  "status": "ok"
+ },
+ "NER / BIO": {
+  "area": "sequence labelling & structure",
+  "chunks_trainable": 110,
+  "chunks_restricted": 54,
+  "docs_trainable": 19,
+  "docs_restricted": 10,
+  "example_docs": [
+   "agents-course-units-en-unit1-what-are-llms",
+   "arxiv-1606.05250",
+   "arxiv-1810.04805",
+   "arxiv-1902.00751",
+   "arxiv-2109.01652",
+   "arxiv-2210.11416"
+  ],
+  "status": "ok"
+ },
+ "constituency parsing / CKY": {
+  "area": "sequence labelling & structure",
+  "chunks_trainable": 57,
+  "chunks_restricted": 100,
+  "docs_trainable": 6,
+  "docs_restricted": 6,
+  "example_docs": [
+   "arxiv-1606.05250",
+   "arxiv-1706.03762",
+   "arxiv-2005.14165",
+   "arxiv-2211.09110",
+   "arxiv-2212.10560",
+   "arxiv-2406.16838"
+  ],
+  "status": "ok"
+ },
+ "dependency parsing": {
+  "area": "sequence labelling & structure",
+  "chunks_trainable": 43,
+  "chunks_restricted": 84,
+  "docs_trainable": 2,
+  "docs_restricted": 9,
+  "example_docs": [
+   "arxiv-1606.05250",
+   "arxiv-1902.00751",
+   "arxiv-2211.09110",
+   "cs224n-2026-assignment-a2",
+   "cs224n-2026-assignment-a2_tex",
+   "cs224n-2026-slides-cs224n-2026-lecture01-history"
+  ],
+  "status": "ok"
+ },
+ "coreference resolution": {
+  "area": "sequence labelling & structure",
+  "chunks_trainable": 118,
+  "chunks_restricted": 108,
+  "docs_trainable": 7,
+  "docs_restricted": 10,
+  "example_docs": [
+   "arxiv-2005.14165",
+   "arxiv-2109.01652",
+   "arxiv-2203.02155",
+   "arxiv-2203.15556",
+   "arxiv-2210.11416",
+   "arxiv-2211.09110"
+  ],
+  "status": "ok"
+ },
+ "semantic role labelling": {
+  "area": "sequence labelling & structure",
+  "chunks_trainable": 56,
+  "chunks_restricted": 50,
+  "docs_trainable": 3,
+  "docs_restricted": 2,
+  "example_docs": [
+   "arxiv-2109.01652",
+   "arxiv-2211.09110",
+   "d2l-bert",
+   "eisenstein-nlp-notes",
+   "slp3-2026aug-textbook-ed3book_aug26"
+  ],
+  "status": "ok"
+ },
+ "relation / event extraction": {
+  "area": "sequence labelling & structure",
+  "chunks_trainable": 36,
+  "chunks_restricted": 40,
+  "docs_trainable": 3,
+  "docs_restricted": 4,
+  "example_docs": [
+   "arxiv-1806.03822",
+   "arxiv-2109.01652",
+   "arxiv-2201.11903",
+   "arxiv-2211.09110",
+   "arxiv-2302.04761",
+   "eisenstein-nlp-notes"
+  ],
+  "status": "ok"
+ },
+ "word sense disambiguation": {
+  "area": "sequence labelling & structure",
+  "chunks_trainable": 29,
+  "chunks_restricted": 23,
+  "docs_trainable": 5,
+  "docs_restricted": 2,
+  "example_docs": [
+   "arxiv-2211.09110",
+   "arxiv-2302.04761",
+   "eisenstein-nlp-notes",
+   "slp3-2026aug-slides-mlmjan25",
+   "slp3-2026aug-slides-vector25aug",
+   "slp3-2026aug-textbook-ed3book_aug26"
+  ],
+  "status": "ok"
+ },
+ "encoder-decoder": {
+  "area": "seq2seq & attention",
+  "chunks_trainable": 189,
+  "chunks_restricted": 162,
+  "docs_trainable": 44,
+  "docs_restricted": 32,
+  "example_docs": [
+   "agents-course-units-en-unit1-what-are-llms",
+   "annotated-transformer-annotatedtransformer",
+   "arxiv-1406.1078",
+   "arxiv-1409.0473",
+   "arxiv-1409.3215",
+   "arxiv-1508.07909"
+  ],
+  "status": "ok"
+ },
+ "attention (Bahdanau/Luong)": {
+  "area": "seq2seq & attention",
+  "chunks_trainable": 51,
+  "chunks_restricted": 106,
+  "docs_trainable": 20,
+  "docs_restricted": 25,
+  "example_docs": [
+   "annotated-transformer-annotatedtransformer",
+   "arxiv-1406.1078",
+   "arxiv-1409.0473",
+   "arxiv-1409.3215",
+   "arxiv-1508.07909",
+   "arxiv-1607.06450"
+  ],
+  "status": "ok"
+ },
+ "machine translation": {
+  "area": "seq2seq & attention",
+  "chunks_trainable": 204,
+  "chunks_restricted": 270,
+  "docs_trainable": 46,
+  "docs_restricted": 43,
+  "example_docs": [
+   "arxiv-1301.3781",
+   "arxiv-1406.1078",
+   "arxiv-1409.0473",
+   "arxiv-1409.3215",
+   "arxiv-1508.07909",
+   "arxiv-1607.06450"
+  ],
+  "status": "ok"
+ },
+ "BLEU / MT evaluation": {
+  "area": "seq2seq & attention",
+  "chunks_trainable": 65,
+  "chunks_restricted": 123,
+  "docs_trainable": 15,
+  "docs_restricted": 27,
+  "example_docs": [
+   "annotated-transformer-annotatedtransformer",
+   "arxiv-1406.1078",
+   "arxiv-1409.0473",
+   "arxiv-1409.3215",
+   "arxiv-1508.07909",
+   "arxiv-1702.01806"
+  ],
+  "status": "ok"
+ },
+ "beam search": {
+  "area": "seq2seq & attention",
+  "chunks_trainable": 86,
+  "chunks_restricted": 112,
+  "docs_trainable": 18,
+  "docs_restricted": 18,
+  "example_docs": [
+   "agents-course-units-en-unit1-what-are-llms",
+   "annotated-transformer-annotatedtransformer",
+   "arxiv-1409.0473",
+   "arxiv-1409.3215",
+   "arxiv-1508.07909",
+   "arxiv-1702.01806"
+  ],
+  "status": "ok"
+ },
+ "self-attention": {
+  "area": "transformers",
+  "chunks_trainable": 101,
+  "chunks_restricted": 137,
+  "docs_trainable": 24,
+  "docs_restricted": 23,
+  "example_docs": [
+   "annotated-transformer-annotatedtransformer",
+   "arxiv-1706.03762",
+   "arxiv-1805.04833",
+   "arxiv-1810.04805",
+   "arxiv-1910.07467",
+   "arxiv-2001.08361"
+  ],
+  "status": "ok"
+ },
+ "multi-head attention": {
+  "area": "transformers",
+  "chunks_trainable": 76,
+  "chunks_restricted": 55,
+  "docs_trainable": 19,
+  "docs_restricted": 17,
+  "example_docs": [
+   "annotated-transformer-annotatedtransformer",
+   "arxiv-1706.03762",
+   "arxiv-1805.04833",
+   "arxiv-1902.00751",
+   "arxiv-2002.04745",
+   "arxiv-2302.13971"
+  ],
+  "status": "ok"
+ },
+ "positional encoding": {
+  "area": "transformers",
+  "chunks_trainable": 43,
+  "chunks_restricted": 46,
+  "docs_trainable": 16,
+  "docs_restricted": 16,
+  "example_docs": [
+   "annotated-transformer-annotatedtransformer",
+   "arxiv-1706.03762",
+   "arxiv-1810.04805",
+   "arxiv-2001.08361",
+   "arxiv-2002.04745",
+   "arxiv-2104.09864"
+  ],
+  "status": "ok"
+ },
+ "RoPE": {
+  "area": "transformers",
+  "chunks_trainable": 62,
+  "chunks_restricted": 18,
+  "docs_trainable": 12,
+  "docs_restricted": 9,
+  "example_docs": [
+   "arxiv-2104.09864",
+   "arxiv-2109.01652",
+   "arxiv-2208.07339",
+   "arxiv-2302.13971",
+   "assignment1-basics-cs336-assignment1-basics",
+   "assignment2-systems-cs336-assignment2-systems"
+  ],
+  "status": "ok"
+ },
+ "causal masking": {
+  "area": "transformers",
+  "chunks_trainable": 18,
+  "chunks_restricted": 2,
+  "docs_trainable": 10,
+  "docs_restricted": 2,
+  "example_docs": [
+   "arxiv-2205.14135",
+   "assignment1-basics-cs336-assignment1-basics",
+   "assignment2-systems-cs336-assignment2-systems",
+   "cs224n-2026-assignment-cs_224n__default_final_project__build_gpt_2",
+   "d2l-large-pretraining-transformers",
+   "d2l-transformer"
+  ],
+  "status": "ok"
+ },
+ "KV cache": {
+  "area": "transformers",
+  "chunks_trainable": 29,
+  "chunks_restricted": 2,
+  "docs_trainable": 10,
+  "docs_restricted": 2,
+  "example_docs": [
+   "arxiv-2211.17192",
+   "arxiv-2305.13245",
+   "arxiv-2406.16838",
+   "cmu-anlp-2026s-slides-anlp-s2026-09-decoding",
+   "cs224n-2026-slides-cs224n-2026-lecture13-reasoning-part2",
+   "hfcourse-ch1-8"
+  ],
+  "status": "ok"
+ },
+ "mixture of experts": {
+  "area": "transformers",
+  "chunks_trainable": 18,
+  "chunks_restricted": 29,
+  "docs_trainable": 11,
+  "docs_restricted": 11,
+  "example_docs": [
+   "arxiv-1706.03762",
+   "arxiv-2002.04745",
+   "arxiv-2005.14165",
+   "arxiv-2009.03300",
+   "arxiv-2109.01652",
+   "arxiv-2203.15556"
+  ],
+  "status": "ok"
+ },
+ "efficient attention (Flash/sparse/linear)": {
+  "area": "transformers",
+  "chunks_trainable": 55,
+  "chunks_restricted": 88,
+  "docs_trainable": 14,
+  "docs_restricted": 8,
+  "example_docs": [
+   "arxiv-2005.14165",
+   "arxiv-2104.09864",
+   "arxiv-2205.14135",
+   "arxiv-2208.07339",
+   "arxiv-2302.13971",
+   "arxiv-2305.13245"
+  ],
+  "status": "ok"
+ },
+ "BERT / masked LM": {
+  "area": "pretraining & LLMs",
+  "chunks_trainable": 331,
+  "chunks_restricted": 141,
+  "docs_trainable": 64,
+  "docs_restricted": 30,
+  "example_docs": [
+   "agents-course-units-en-unit1-what-are-llms",
+   "arxiv-1810.04805",
+   "arxiv-1902.00751",
+   "arxiv-2001.08361",
+   "arxiv-2002.04745",
+   "arxiv-2005.11401"
+  ],
+  "status": "ok"
+ },
+ "GPT / autoregressive LM": {
+  "area": "pretraining & LLMs",
+  "chunks_trainable": 543,
+  "chunks_restricted": 672,
+  "docs_trainable": 83,
+  "docs_restricted": 58,
+  "example_docs": [
+   "agents-course-units-en-bonus-unit1-what-is-function-calling",
+   "agents-course-units-en-unit1-what-are-agents",
+   "agents-course-units-en-unit1-what-are-llms",
+   "arxiv-1607.06450",
+   "arxiv-1810.04805",
+   "arxiv-1904.09751"
+  ],
+  "status": "ok"
+ },
+ "T5 / encoder-decoder pretraining": {
+  "area": "pretraining & LLMs",
+  "chunks_trainable": 189,
+  "chunks_restricted": 40,
+  "docs_trainable": 28,
+  "docs_restricted": 15,
+  "example_docs": [
+   "agents-course-units-en-unit1-what-are-llms",
+   "arxiv-2005.11401",
+   "arxiv-2005.14165",
+   "arxiv-2009.03300",
+   "arxiv-2105.03011",
+   "arxiv-2107.03374"
+  ],
+  "status": "ok"
+ },
+ "scaling laws": {
+  "area": "pretraining & LLMs",
+  "chunks_trainable": 61,
+  "chunks_restricted": 99,
+  "docs_trainable": 20,
+  "docs_restricted": 18,
+  "example_docs": [
+   "arxiv-2001.08361",
+   "arxiv-2005.14165",
+   "arxiv-2009.03300",
+   "arxiv-2107.03374",
+   "arxiv-2109.01652",
+   "arxiv-2110.14168"
+  ],
+  "status": "ok"
+ },
+ "pretraining data / filtering": {
+  "area": "pretraining & LLMs",
+  "chunks_trainable": 60,
+  "chunks_restricted": 58,
+  "docs_trainable": 22,
+  "docs_restricted": 18,
+  "example_docs": [
+   "arxiv-1810.04805",
+   "arxiv-2005.14165",
+   "arxiv-2009.03300",
+   "arxiv-2104.09864",
+   "arxiv-2105.09938",
+   "arxiv-2106.09685"
+  ],
+  "status": "ok"
+ },
+ "in-context learning / few-shot": {
+  "area": "pretraining & LLMs",
+  "chunks_trainable": 194,
+  "chunks_restricted": 301,
+  "docs_trainable": 29,
+  "docs_restricted": 27,
+  "example_docs": [
+   "arxiv-2005.14165",
+   "arxiv-2009.03300",
+   "arxiv-2105.09938",
+   "arxiv-2106.09685",
+   "arxiv-2107.03374",
+   "arxiv-2108.07732"
+  ],
+  "status": "ok"
+ },
+ "prompting / chain-of-thought": {
+  "area": "pretraining & LLMs",
+  "chunks_trainable": 183,
+  "chunks_restricted": 66,
+  "docs_trainable": 25,
+  "docs_restricted": 19,
+  "example_docs": [
+   "agents-course-units-en-bonus-unit1-introduction",
+   "agents-course-units-en-unit1-thoughts",
+   "arxiv-2106.09685",
+   "arxiv-2107.03374",
+   "arxiv-2109.01652",
+   "arxiv-2201.11903"
+  ],
+  "status": "ok"
+ },
+ "instruction tuning": {
+  "area": "pretraining & LLMs",
+  "chunks_trainable": 97,
+  "chunks_restricted": 82,
+  "docs_trainable": 24,
+  "docs_restricted": 10,
+  "example_docs": [
+   "agents-course-units-en-bonus-unit1-fine-tuning",
+   "agents-course-units-en-unit1-messages-and-special-tokens",
+   "arxiv-2109.01652",
+   "arxiv-2210.11416",
+   "arxiv-2211.09110",
+   "arxiv-2212.10560"
+  ],
+  "status": "ok"
+ },
+ "RLHF / PPO": {
+  "area": "pretraining & LLMs",
+  "chunks_trainable": 139,
+  "chunks_restricted": 201,
+  "docs_trainable": 28,
+  "docs_restricted": 21,
+  "example_docs": [
+   "arxiv-2005.14165",
+   "arxiv-2105.09938",
+   "arxiv-2107.03374",
+   "arxiv-2108.07732",
+   "arxiv-2109.01652",
+   "arxiv-2201.11903"
+  ],
+  "status": "ok"
+ },
+ "DPO / preference optimization": {
+  "area": "pretraining & LLMs",
+  "chunks_trainable": 95,
+  "chunks_restricted": 18,
+  "docs_trainable": 10,
+  "docs_restricted": 7,
+  "example_docs": [
+   "arxiv-2305.18290",
+   "arxiv-2308.07124",
+   "arxiv-2406.01574",
+   "arxiv-2406.16838",
+   "arxiv-2501.12948",
+   "cmu-anlp-2026s-syllabus-anlp-spring2026"
+  ],
+  "status": "ok"
+ },
+ "LoRA / PEFT": {
+  "area": "pretraining & LLMs",
+  "chunks_trainable": 119,
+  "chunks_restricted": 108,
+  "docs_trainable": 27,
+  "docs_restricted": 13,
+  "example_docs": [
+   "agents-course-units-en-bonus-unit1-fine-tuning",
+   "agents-course-units-en-bonus-unit1-introduction",
+   "agents-course-units-en-bonus-unit1-what-is-function-calling",
+   "arxiv-1902.00751",
+   "arxiv-2106.09685",
+   "arxiv-2107.03374"
+  ],
+  "status": "ok"
+ },
+ "quantization": {
+  "area": "pretraining & LLMs",
+  "chunks_trainable": 133,
+  "chunks_restricted": 24,
+  "docs_trainable": 19,
+  "docs_restricted": 13,
+  "example_docs": [
+   "arxiv-2205.14135",
+   "arxiv-2208.07339",
+   "arxiv-2211.17192",
+   "arxiv-2212.10511",
+   "arxiv-2305.13245",
+   "arxiv-2305.14314"
+  ],
+  "status": "ok"
+ },
+ "decoding: sampling / temperature / top-p": {
+  "area": "pretraining & LLMs",
+  "chunks_trainable": 82,
+  "chunks_restricted": 110,
+  "docs_trainable": 23,
+  "docs_restricted": 22,
+  "example_docs": [
+   "arxiv-1409.0473",
+   "arxiv-1607.06450",
+   "arxiv-1702.01806",
+   "arxiv-1707.06209",
+   "arxiv-1805.04833",
+   "arxiv-1904.09751"
+  ],
+  "status": "ok"
+ },
+ "speculative decoding": {
+  "area": "pretraining & LLMs",
+  "chunks_trainable": 50,
+  "chunks_restricted": 9,
+  "docs_trainable": 5,
+  "docs_restricted": 4,
+  "example_docs": [
+   "arxiv-2211.17192",
+   "arxiv-2305.13245",
+   "arxiv-2406.16838",
+   "arxiv-2501.12948",
+   "cmu-anlp-2026s-slides-anlp-s2026-09-decoding",
+   "cs224n-2026-slides-cs224n-2026-lecture12-reasoning-part1"
+  ],
+  "status": "ok"
+ },
+ "reasoning models / test-time compute": {
+  "area": "pretraining & LLMs",
+  "chunks_trainable": 18,
+  "chunks_restricted": 38,
+  "docs_trainable": 11,
+  "docs_restricted": 9,
+  "example_docs": [
+   "arxiv-2305.20050",
+   "arxiv-2406.16838",
+   "arxiv-2501.12948",
+   "cmu-anlp-2026s-slides-anlp-s2026-18-zora",
+   "cmu-anlp-2026s-slides-anlp-s2026-23-inference-scaling",
+   "cmu-anlp-2026s-syllabus-anlp-spring2026"
+  ],
+  "status": "ok"
+ },
+ "question answering": {
+  "area": "applications & evaluation",
+  "chunks_trainable": 226,
+  "chunks_restricted": 178,
+  "docs_trainable": 43,
+  "docs_restricted": 37,
+  "example_docs": [
+   "annotated-transformer-annotatedtransformer",
+   "arxiv-1301.3781",
+   "arxiv-1409.3215",
+   "arxiv-1606.05250",
+   "arxiv-1706.03762",
+   "arxiv-1707.06209"
+  ],
+  "status": "ok"
+ },
+ "summarization": {
+  "area": "applications & evaluation",
+  "chunks_trainable": 166,
+  "chunks_restricted": 125,
+  "docs_trainable": 35,
+  "docs_restricted": 32,
+  "example_docs": [
+   "agents-course-units-en-unit1-what-are-llms",
+   "annotated-transformer-annotatedtransformer",
+   "arxiv-1607.06450",
+   "arxiv-1706.03762",
+   "arxiv-1805.04833",
+   "arxiv-1806.03822"
+  ],
+  "status": "ok"
+ },
+ "information retrieval / BM25": {
+  "area": "applications & evaluation",
+  "chunks_trainable": 126,
+  "chunks_restricted": 45,
+  "docs_trainable": 21,
+  "docs_restricted": 15,
+  "example_docs": [
+   "agents-course-units-en-unit3-agentic-rag-agent",
+   "agents-course-units-en-unit3-agentic-rag-invitees",
+   "arxiv-1301.3781",
+   "arxiv-1707.06209",
+   "arxiv-2005.11401",
+   "arxiv-2005.14165"
+  ],
+  "status": "ok"
+ },
+ "dense retrieval / RAG": {
+  "area": "applications & evaluation",
+  "chunks_trainable": 156,
+  "chunks_restricted": 93,
+  "docs_trainable": 24,
+  "docs_restricted": 13,
+  "example_docs": [
+   "agents-course-units-en-unit3-agentic-rag-agent",
+   "agents-course-units-en-unit3-agentic-rag-agentic-rag",
+   "agents-course-units-en-unit3-agentic-rag-conclusion",
+   "agents-course-units-en-unit3-agentic-rag-introduction",
+   "agents-course-units-en-unit3-agentic-rag-invitees",
+   "agents-course-units-en-unit3-agentic-rag-tools"
+  ],
+  "status": "ok"
+ },
+ "dialogue / chatbots": {
+  "area": "applications & evaluation",
+  "chunks_trainable": 97,
+  "chunks_restricted": 66,
+  "docs_trainable": 28,
+  "docs_restricted": 13,
+  "example_docs": [
+   "agents-course-units-en-unit1-quiz1",
+   "agents-course-units-en-unit1-quiz2",
+   "agents-course-units-en-unit1-what-are-agents",
+   "agents-course-units-en-unit1-what-are-llms",
+   "agents-course-units-en-unit3-agentic-rag-agent",
+   "arxiv-2005.11401"
+  ],
+  "status": "ok"
+ },
+ "agents / tool use": {
+  "area": "applications & evaluation",
+  "chunks_trainable": 35,
+  "chunks_restricted": 15,
+  "docs_trainable": 18,
+  "docs_restricted": 6,
+  "example_docs": [
+   "agents-course-units-en-bonus-unit1-introduction",
+   "agents-course-units-en-bonus-unit1-what-is-function-calling",
+   "agents-course-units-en-unit1-actions",
+   "agents-course-units-en-unit1-conclusion",
+   "agents-course-units-en-unit1-quiz1",
+   "agents-course-units-en-unit1-thoughts"
+  ],
+  "status": "ok"
+ },
+ "LLM evaluation / benchmarks": {
+  "area": "applications & evaluation",
+  "chunks_trainable": 438,
+  "chunks_restricted": 409,
+  "docs_trainable": 57,
+  "docs_restricted": 52,
+  "example_docs": [
+   "arxiv-1211.5063",
+   "arxiv-1301.3781",
+   "arxiv-1506.05908",
+   "arxiv-1806.03822",
+   "arxiv-1810.04805",
+   "arxiv-1902.00751"
+  ],
+  "status": "ok"
+ },
+ "hallucination / factuality": {
+  "area": "applications & evaluation",
+  "chunks_trainable": 78,
+  "chunks_restricted": 47,
+  "docs_trainable": 24,
+  "docs_restricted": 15,
+  "example_docs": [
+   "agents-course-units-en-unit1-dummy-agent-library",
+   "agents-course-units-en-unit1-tools",
+   "arxiv-2005.11401",
+   "arxiv-2201.11903",
+   "arxiv-2203.02155",
+   "arxiv-2203.11171"
+  ],
+  "status": "ok"
+ },
+ "multilinguality": {
+  "area": "applications & evaluation",
+  "chunks_trainable": 111,
+  "chunks_restricted": 80,
+  "docs_trainable": 27,
+  "docs_restricted": 16,
+  "example_docs": [
+   "arxiv-1409.0473",
+   "arxiv-1409.3215",
+   "arxiv-1508.07909",
+   "arxiv-1810.04805",
+   "arxiv-1902.00751",
+   "arxiv-2005.14165"
+  ],
+  "status": "ok"
+ },
+ "speech (ASR/TTS)": {
+  "area": "applications & evaluation",
+  "chunks_trainable": 162,
+  "chunks_restricted": 57,
+  "docs_trainable": 24,
+  "docs_restricted": 16,
+  "example_docs": [
+   "arxiv-1301.3781",
+   "arxiv-1406.1078",
+   "arxiv-1409.0473",
+   "arxiv-1409.3215",
+   "arxiv-1506.05908",
+   "arxiv-1508.07909"
+  ],
+  "status": "ok"
+ },
+ "multimodal (vision-language)": {
+  "area": "applications & evaluation",
+  "chunks_trainable": 45,
+  "chunks_restricted": 61,
+  "docs_trainable": 25,
+  "docs_restricted": 26,
+  "example_docs": [
+   "agents-course-units-en-unit1-quiz1",
+   "arxiv-1607.06450",
+   "arxiv-1910.07467",
+   "arxiv-2005.14165",
+   "arxiv-2009.03300",
+   "arxiv-2104.09864"
+  ],
+  "status": "ok"
+ },
+ "bias & fairness": {
+  "area": "responsible NLP",
+  "chunks_trainable": 135,
+  "chunks_restricted": 48,
+  "docs_trainable": 12,
+  "docs_restricted": 13,
+  "example_docs": [
+   "arxiv-2005.14165",
+   "arxiv-2107.03374",
+   "arxiv-2108.07732",
+   "arxiv-2109.01652",
+   "arxiv-2203.02155",
+   "arxiv-2203.15556"
+  ],
+  "status": "ok"
+ },
+ "safety / jailbreaks / prompt injection": {
+  "area": "responsible NLP",
+  "chunks_trainable": 35,
+  "chunks_restricted": 20,
+  "docs_trainable": 14,
+  "docs_restricted": 5,
+  "example_docs": [
+   "agents-course-units-en-unit1-actions",
+   "arxiv-2211.09110",
+   "arxiv-2308.07124",
+   "arxiv-2501.12948",
+   "cs224n-2026-assignment-a4",
+   "cs224n-2026-assignment-a4_tex"
+  ],
+  "status": "ok"
+ },
+ "privacy / memorization": {
+  "area": "responsible NLP",
+  "chunks_trainable": 93,
+  "chunks_restricted": 34,
+  "docs_trainable": 24,
+  "docs_restricted": 15,
+  "example_docs": [
+   "arxiv-1211.5063",
+   "arxiv-1506.05908",
+   "arxiv-2005.11401",
+   "arxiv-2005.14165",
+   "arxiv-2009.03300",
+   "arxiv-2105.03011"
+  ],
+  "status": "ok"
+ },
+ "ethics / societal impact": {
+  "area": "responsible NLP",
+  "chunks_trainable": 69,
+  "chunks_restricted": 40,
+  "docs_trainable": 25,
+  "docs_restricted": 12,
+  "example_docs": [
+   "arxiv-1301.3781",
+   "arxiv-2005.14165",
+   "arxiv-2009.03300",
+   "arxiv-2105.03011",
+   "arxiv-2105.09938",
+   "arxiv-2107.03374"
+  ],
+  "status": "ok"
+ }
+}

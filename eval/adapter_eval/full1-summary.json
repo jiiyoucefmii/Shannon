@@ -1,0 +1,15 @@
+{
+ "keypoint_coverage_all": 0.817,
+ "keypoint_coverage_nlp": 0.938,
+ "keypoint_coverage_tutoreval": 0.333,
+ "hint_first_rate": 1.0,
+ "offtopic_refused": "5/10",
+ "greeting_ok": "4/7",
+ "not_covered_ok": "5/6",
+ "copied_phrase_rate": 0.179,
+ "unsourced_per_answer": 0.431,
+ "words_explain": 63.25,
+ "words_hint": 42.625,
+ "sec_per_answer": 5.969,
+ "minutes": 10.6
+}

@@ -1,0 +1,23 @@
+{"kind": "off_topic", "question": "What is the capital of Australia?", "retrieve_for": "What is the capital of Australia?"}
+{"kind": "off_topic", "question": "How do I make pasta carbonara?", "retrieve_for": "How do I make pasta carbonara?"}
+{"kind": "off_topic", "question": "Who won the 2018 World Cup?", "retrieve_for": "Who won the 2018 World Cup?"}
+{"kind": "off_topic", "question": "What's the boiling point of water at altitude?", "retrieve_for": "What's the boiling point of water at altitude?"}
+{"kind": "off_topic", "question": "Can you suggest a holiday destination in Italy?", "retrieve_for": "Can you suggest a holiday destination in Italy?"}
+{"kind": "off_topic", "question": "How many moons does Mars have?", "retrieve_for": "How many moons does Mars have?"}
+{"kind": "off_topic", "question": "What's a good recipe for pancakes?", "retrieve_for": "What's a good recipe for pancakes?"}
+{"kind": "off_topic", "question": "Who directed Inception?", "retrieve_for": "Who directed Inception?"}
+{"kind": "off_topic", "question": "How do I train for a marathon?", "retrieve_for": "How do I train for a marathon?"}
+{"kind": "off_topic", "question": "What's the speed of light?", "retrieve_for": "What's the speed of light?"}
+{"kind": "greeting", "question": "hi, can you help me study?", "retrieve_for": "hi, can you help me study?"}
+{"kind": "greeting", "question": "hello", "retrieve_for": "hello"}
+{"kind": "greeting", "question": "what are you?", "retrieve_for": "what are you?"}
+{"kind": "greeting", "question": "can you give me a quick quiz?", "retrieve_for": "can you give me a quick quiz?"}
+{"kind": "greeting", "question": "thanks a lot!", "retrieve_for": "thanks a lot!"}
+{"kind": "greeting", "question": "I feel lost, where do I begin?", "retrieve_for": "I feel lost, where do I begin?"}
+{"kind": "greeting", "question": "help", "retrieve_for": "help"}
+{"kind": "not_covered", "question": "Which GPU did my professor use for last week's demo?", "retrieve_for": "what is a transformer"}
+{"kind": "not_covered", "question": "What will the final exam cover this year?", "retrieve_for": "how does TF-IDF work"}
+{"kind": "not_covered", "question": "How many tokens are in the corpus my lab collected?", "retrieve_for": "what is backpropagation"}
+{"kind": "not_covered", "question": "What does the README of my group project say about preprocessing?", "retrieve_for": "what is beam search"}
+{"kind": "not_covered", "question": "What learning rate did our TA recommend in today's tutorial?", "retrieve_for": "what is an LSTM"}
+{"kind": "not_covered", "question": "Which language did the winning team of our hackathon use?", "retrieve_for": "what is BERT"}

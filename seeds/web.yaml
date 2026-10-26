@@ -1,0 +1,43 @@
+# Open web sources for thin topics (coverage audit 2026-10-19). Licences checked 2026-10-19:
+#   Wikipedia text: CC BY-SA 4.0 (en.wikipedia.org siteinfo rightsinfo); /wiki/ pages allowed by robots.txt
+#   OWASP Top 10 for LLM Applications: CC BY-SA 4.0 (repo LICENSE.md)
+#   huggingface/agents-course, huggingface/transformers: Apache-2.0 (repo LICENSE)
+# Skipped: huggingface/blog ("How to generate text") - repo has no licence.
+
+wikipedia:
+  - {title: "Text_normalization", topics: [preprocessing-tokenization]}
+  - {title: "Stemming", topics: [preprocessing-tokenization]}
+  - {title: "Lemmatization", topics: [preprocessing-tokenization]}
+  - {title: "Kneser–Ney_smoothing", topics: [ngram-lm]}
+  - {title: "Additive_smoothing", topics: [ngram-lm]}
+  - {title: "Katz's_back-off_model", topics: [ngram-lm]}
+  - {title: "Pointwise_mutual_information", topics: [embeddings]}
+  - {title: "Tf–idf", topics: [embeddings, rag]}
+  - {title: "Prompt_injection", topics: [responsible-security]}
+  - {title: "Word_embedding", topics: [embeddings, responsible-security]}
+  - {title: "Algorithmic_bias", topics: [responsible-security]}
+  - {title: "Beam_search", topics: [decoding]}
+  - {title: "Top-p_sampling", topics: [decoding]}
+  - {title: "Softmax_function", topics: [decoding, classification-labeling]}
+  - {title: "Large_language_model", topics: [llm-instruction-peft, hallucination-robustness, advanced]}
+  - {title: "AI_agent", topics: [rag, advanced]}
+
+repos:  # sparse clones; only the listed paths are checked out and registered
+  - repo: OWASP/www-project-top-10-for-large-language-model-applications
+    licence: CC-BY-SA-4.0
+    licence_file: LICENSE.md
+    paths: ["2_0_vulns/LLM*.md"]           # English 2025 list; translations and archive skipped
+    topics: [responsible-security]
+    type: docs
+  - repo: huggingface/agents-course
+    licence: Apache-2.0
+    licence_file: LICENSE
+    paths: ["units/en/unit1/*.mdx", "units/en/unit3/**/*.mdx", "units/en/bonus-unit1/*.mdx"]
+    topics: [advanced, rag, llm-instruction-peft]
+    type: notes
+  - repo: huggingface/transformers
+    licence: Apache-2.0
+    licence_file: LICENSE
+    paths: ["docs/source/en/generation_strategies.md"]
+    topics: [decoding]
+    type: docs

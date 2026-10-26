@@ -1,0 +1,81 @@
+# Paper seeds. Every arXiv ID comes from a scraped course reading list (CS224N W26, CMU 11-711 S26),
+# a Hugging Face dataset card, or was opened via alphaXiv on 2026-10-17 (marked "verified").
+# Download on your machine: PDF  https://arxiv.org/pdf/<id>   LaTeX source  https://arxiv.org/e-print/<id>
+# License: arXiv licenses vary per paper — the download script records it from the abs page.
+# Non-arXiv readings (GloVe, Bengio 2003, GPT-2 tech report, ACL Anthology) are listed under `other`.
+
+core:  # course backbone, P1
+  - {id: "1301.3781", title: "word2vec (Efficient Estimation of Word Representations)", topics: [embeddings]}
+  - {id: "1409.3215", title: "Sequence to Sequence Learning with Neural Networks", topics: [mt-seq2seq, rnn-lstm], note: verified}
+  - {id: "1409.0473", title: "Neural MT by Jointly Learning to Align and Translate (Bahdanau attention)", topics: [attention, mt-seq2seq]}
+  - {id: "1406.1078", title: "RNN Encoder-Decoder (Cho et al.)", topics: [rnn-lstm, mt-seq2seq]}
+  - {id: "1211.5063", title: "On the difficulty of training RNNs", topics: [rnn-lstm]}
+  - {id: "1706.03762", title: "Attention Is All You Need", topics: [transformer, attention, positional-encoding]}
+  - {id: "1607.06450", title: "Layer Normalization", topics: [transformer]}
+  - {id: "2002.04745", title: "On Layer Normalization in the Transformer (Pre-LN)", topics: [transformer]}
+  - {id: "1910.07467", title: "RMSNorm", topics: [transformer]}
+  - {id: "2104.09864", title: "RoFormer (RoPE)", topics: [positional-encoding]}
+  - {id: "2305.13245", title: "GQA: Grouped-Query Attention", topics: [attention, architectures]}
+  - {id: "1508.07909", title: "Neural MT of Rare Words with Subword Units (BPE)", topics: [preprocessing-tokenization]}
+  - {id: "1810.04805", title: "BERT", topics: [mlm-autoregressive, pretraining-finetuning, architectures]}
+  - {id: "2005.14165", title: "GPT-3: Language Models are Few-Shot Learners", topics: [mlm-autoregressive, llm-instruction-peft]}
+  - {id: "2302.13971", title: "LLaMA", topics: [architectures, pretraining-finetuning]}
+  - {id: "2001.08361", title: "Scaling Laws for Neural Language Models", topics: [pretraining-finetuning]}
+  - {id: "2203.15556", title: "Chinchilla: Training Compute-Optimal LLMs", topics: [pretraining-finetuning]}
+  - {id: "2106.09685", title: "LoRA", topics: [llm-instruction-peft]}
+  - {id: "2305.14314", title: "QLoRA", topics: [llm-instruction-peft]}
+  - {id: "1902.00751", title: "Parameter-Efficient Transfer Learning (Adapters)", topics: [llm-instruction-peft]}
+  - {id: "2109.01652", title: "FLAN: Finetuned LMs are Zero-Shot Learners", topics: [llm-instruction-peft]}
+  - {id: "2210.11416", title: "Scaling Instruction-Finetuned LMs (Flan-T5/PaLM)", topics: [llm-instruction-peft]}
+  - {id: "2212.10560", title: "Self-Instruct", topics: [llm-instruction-peft]}
+  - {id: "2203.02155", title: "InstructGPT (RLHF)", topics: [llm-instruction-peft, responsible-security]}
+  - {id: "2305.18290", title: "DPO: Direct Preference Optimization", topics: [llm-instruction-peft]}
+  - {id: "2201.11903", title: "Chain-of-Thought Prompting", topics: [advanced]}
+  - {id: "2203.11171", title: "Self-Consistency", topics: [decoding, advanced]}
+  - {id: "2406.16838", title: "From Decoding to Meta-Generation (decoding survey)", topics: [decoding]}
+  - {id: "2211.17192", title: "Speculative Decoding", topics: [decoding]}
+  - {id: "2005.11401", title: "Retrieval-Augmented Generation (Lewis et al.)", topics: [rag]}
+  - {id: "2310.11511", title: "Self-RAG", topics: [rag, hallucination-robustness]}
+  - {id: "2212.10511", title: "When Not to Trust Language Models (retrieval vs parametric)", topics: [rag, hallucination-robustness]}
+  - {id: "2210.03629", title: "ReAct", topics: [advanced]}
+  - {id: "2302.04761", title: "Toolformer", topics: [advanced]}
+  - {id: "2205.14135", title: "FlashAttention", topics: [attention, advanced]}
+  - {id: "2208.07339", title: "LLM.int8() quantization", topics: [advanced]}
+  - {id: "2501.12948", title: "DeepSeek-R1", topics: [advanced, llm-instruction-peft]}
+  - {id: "2305.20050", title: "Let's Verify Step by Step (process supervision)", topics: [advanced, evaluation-metrics]}
+
+evaluation:  # P2 — evaluation, grading, LLM-as-judge
+  - {id: "2009.03300", title: "MMLU", topics: [evaluation-metrics]}
+  - {id: "2211.09110", title: "HELM: Holistic Evaluation of Language Models", topics: [evaluation-metrics]}
+  - {id: "2306.05685", title: "Judging LLM-as-a-Judge (MT-Bench)", topics: [evaluation-metrics], note: verified}
+  - {id: "2107.03374", title: "Codex / HumanEval", topics: [evaluation-metrics]}
+  - {id: "2108.07732", title: "MBPP: Program Synthesis with LLMs", topics: [evaluation-metrics]}
+  - {id: "2105.09938", title: "APPS", topics: [evaluation-metrics]}
+  - {id: "2308.07124", title: "OctoPack / HumanEvalPack", topics: [evaluation-metrics]}
+  - {id: "2110.14168", title: "GSM8K (Training Verifiers)", topics: [evaluation-metrics]}
+  - {id: "2305.12524", title: "TheoremQA", topics: [evaluation-metrics]}
+  - {id: "2406.01574", title: "MMLU-Pro", topics: [evaluation-metrics]}
+  - {id: "1606.05250", title: "SQuAD 1.1", topics: [evaluation-metrics, rag]}
+  - {id: "1806.03822", title: "SQuAD 2.0", topics: [evaluation-metrics, rag]}
+  - {id: "2105.03011", title: "QASPER", topics: [rag]}
+  - {id: "1707.06209", title: "SciQ (crowdsourcing MCQ)", topics: [evaluation-metrics]}
+
+tutoring_adaptive:  # P3/P4 — tutoring data and knowledge tracing
+  - {id: "2305.14536", title: "MathDial: dialogue tutoring dataset", topics: [advanced]}
+  - {id: "1506.05908", title: "Deep Knowledge Tracing", topics: [advanced], note: verified}
+
+other:  # non-arXiv readings from the course pages
+  - {title: "GloVe", url: "http://nlp.stanford.edu/pubs/glove.pdf", topics: [embeddings]}
+  - {title: "A Neural Probabilistic Language Model (Bengio 2003)", url: "https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf", topics: [ngram-lm, embeddings]}
+  - {title: "GPT-2 tech report", url: "https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf", topics: [mlm-autoregressive]}
+  - {title: "Mikolov et al. 2013 NeurIPS (word2vec negative sampling)", url: "http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf", topics: [embeddings]}
+  - {title: "Eisenstein, Natural Language Processing (notes)", url: "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf", topics: [ngram-lm, classification-labeling, ner-ie], note: "already in quarantine/repos"}
+  - {title: "The Annotated Transformer", url: "https://nlp.seas.harvard.edu/annotated-transformer/", topics: [transformer], note: "repo cloned"}
+
+gap_fill:  # added 2026-10-18: retrieval test showed thin coverage; ids and titles checked on the arXiv abs pages
+  - {id: "cmp-lg/9606011", title: "Chen & Goodman: An Empirical Study of Smoothing Techniques for Language Modeling", topics: [ngram-lm], note: verified}
+  - {id: "cs/0108005", title: "Goodman: A Bit of Progress in Language Modeling", topics: [ngram-lm], note: verified}
+  - {id: "1904.09751", title: "The Curious Case of Neural Text Degeneration (nucleus sampling)", topics: [decoding], note: verified}
+  - {id: "1805.04833", title: "Hierarchical Neural Story Generation (top-k sampling)", topics: [decoding], note: verified}
+  - {id: "2010.02650", title: "If beam search is the answer, what was the question?", topics: [decoding], note: verified}
+  - {id: "1702.01806", title: "Beam Search Strategies for Neural Machine Translation", topics: [decoding, mt-seq2seq], note: verified}

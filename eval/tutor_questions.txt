@@ -1,0 +1,10 @@
+# Student-style questions for spot-checking the RAG tutor (one per line).
+# Mix: core concepts, a misconception, a follow-up-style question, and one the corpus does not cover.
+Why do we divide by the square root of d_k in attention? I don't get what goes wrong without it.
+I think Kneser-Ney just adds a constant to every count like Laplace smoothing. Is that right?
+What's the difference between top-k and top-p sampling?
+How does LoRA reduce the number of trainable parameters?
+My RNN loss becomes NaN after a few hundred steps. What might be happening?
+What is the capital of Australia?
+How do I make pasta carbonara?
+hi, can you help me study?
